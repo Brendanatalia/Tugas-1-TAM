@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF5E6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvtinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tinggi (cm)"
+        android:textColor="#CD5C5C"
+        android:textStyle="bold"
+        android:scrollbarStyle="insideInset"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ettinggi"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:inputType="numberDecimal"
+        android:lines="3" />
+
+    <TextView
+        android:id="@+id/tvberat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Berat (kg)"
+        android:textColor="#CD5C5C"
+        android:textStyle="bold"
+        android:scrollbarStyle="insideInset"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etberat"
+        android:layout_width="121dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/btnhasil"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="270dp"
+        android:text="Hitung"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvhasil"
+        android:text="Hasil"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#CD5C5C"
+        android:layout_marginTop="350dp"
+        />
+
+    <Button
+        android:id="@+id/btnmove"
+        android:layout_width="108dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:text="About"
+        android:textAlignment="center"
+        android:onClick="about"
+        />
+
+</RelativeLayout>
