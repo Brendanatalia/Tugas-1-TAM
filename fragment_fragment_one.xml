@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE4C4"
+    tools:context=".FragmentOne">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/girl"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textSize="20sp"
+        android:layout_marginStart="100dp"
+        android:text="Brenda Natalia"
+        android:textColor="#A52A2A"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#CD5C5C"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textSize="20sp"
+        android:text="1717051021"
+        android:layout_marginStart="100dp"
+        android:textColor="#8B4513"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/hijab2"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:textSize="20sp"
+        android:layout_marginStart="100dp"
+        android:text="Kasandra Cahyani"
+        android:textColor="#A52A2A"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:textSize="20sp"
+        android:text="1717051027"
+        android:layout_marginStart="100dp"
+        android:textColor="#8B4513"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="340dp"
+        android:src="@drawable/hijab3"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:textSize="20sp"
+        android:layout_marginStart="100dp"
+        android:text="Susi Indah Lestari"
+        android:textColor="#A52A2A"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:textSize="20sp"
+        android:text="1717051035"
+        android:layout_marginStart="100dp"
+        android:textColor="#8B4513"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:textAlignment="center"
+        android:layout_marginTop="500dp"
+        android:text="Kelompok 7"
+        android:textSize="30sp"
+        android:textColor="#A52A2A"
+        android:textStyle="bold"
+        />
+
+</FrameLayout>
